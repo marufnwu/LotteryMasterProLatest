@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="district_array">
+        <item>Select District</item>
+        <item>North 24 Parganas  - উত্তর ২৪ পরগনা</item>
+        <item>Alipurduar - আলিপুরদুয়ার </item>
+        <item>Bankura - বাঁকুড়া </item>
+        <item>Birbhum - বীরভূম</item>
+        <item>Cooch Behar - কোচবিহার</item>
+        <item>Dakshin Dinajpur - দক্ষিণ দিনাজপুর</item>
+        <item>Darjeeling - দার্জিলিং</item>
+        <item>Hooghly - হুগলি</item>
+        <item>Howrah - হাওড়া</item>
+        <item>Jhargram - ঝাড়গ্রাম</item>
+        <item>Kalimpong - কালিম্পং</item>
+        <item>Kolkata - কলকাতা</item>
+        <item>Malda - মালদা</item>
+        <item>Murshidabad - মুর্শিদাবাদ</item>
+        <item>Nadia - নাদিয়া</item>
+        <item>Paschim Medinipur - পশ্চিম মেদিনীপুর </item>
+        <item>Paschim Burdwan - পশ্চিম বর্ধমান</item>
+        <item>Purba Burdwan - পূর্ব বর্ধমান </item>
+        <item>Purba Medinipur - পূর্ব মেদিনীপুর</item>
+        <item>Purulia - পুরুলিয়া</item>
+        <item>South 24 Parganas - দক্ষিণ ২৪ পরগনা</item>
+        <item>Uttar Dinajpur - উত্তর দিনাজপুর</item>
+    </string-array>
+
+
+
+    <string-array name="village_array">
+        <item>Select Village</item>
+
+        <item>Mohonpur-মোহনপুর </item>
+        <item>Babanpur-বাবানপুর</item>
+        <item>Lockgate-লকগেট</item>
+        <item>Jaforpur-জাফরপুর</item>
+        <item>Purbasa-পূর্বাশা</item>
+        <item>Lamphobazar - ল্যাম্ফবাজার</item>
+        <item>Santinagar- শান্তিনগর </item>
+        <item>Nababganj - নবাবগঞ্জ </item>
+        <item>Anandapuri-আনন্দপুরী</item>
+
+        <item>Others-অন্য জায়গা</item>
+    </string-array>
+
+    <string-array name="city_array">
+        <item>Select City</item>
+        <item>Palta-পালতা</item>
+        <item>Barrackpur - ব্যারাকপুর</item>
+        <item>Icchapur- ইছাপুর</item>
+        <item>Nilganj- নীলগঞ্জ</item>
+        <item>Sheuli-শিউলী</item>
+        <item>Titagarh-টিটাগড়</item>
+        <item>Ashokenagar-Kalyangarh - অশোকেনগর-কল্যাণগড়</item>
+        <item>Baduria - বাদুড়িয়া</item>
+        <item>Baranagar - বরানগর</item>
+        <item>Barasat - বারাসত</item>
+        <item>Basirhat - বসিরহাট</item>
+        <item>Bhatpara - ভাটপাড়া</item>
+        <item>Bidhannagar - বিধাননগর</item>
+        <item>Bongaon - বনগাঁও</item>
+        <item>Dum Dum - দমদম</item>
+        <item>Garulia - গারুলিয়া</item>
+        <item>Gobardanga  - গোবরডাঙ্গা</item>
+        <item>Habra - হাবরা</item>
+        <item>Halisahar - হালিশহর</item>
+        <item>Kamarhati - কামারহাটি</item>
+        <item>Khardah - খরদহ</item>
+        <item>Madhyamgram - মধ্যমগ্রাম</item>
+        <item>Naihati - নৈহাটি</item>
+        <item>New Barrackpur - নিউ ব্যারাকপুর</item>
+        <item>North Dum Dum - উত্তর দম দম</item>
+        <item>Panihati - পানিহাটি</item>
+        <item>Rajarhat-Gopalpur - রাজারহাট-গোপালপুর</item>
+        <item>South Dum Dum - দক্ষিণ দম দম</item>
+        <item>Taki - টাকি</item>
+        <item>Titagarh - টিটাগড়</item>
+        <item>Kanchrapara - কাঁচরাপাড়া</item>
+    </string-array>
+</resources>

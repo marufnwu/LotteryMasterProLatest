@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/videoRootlayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <com.google.android.material.card.MaterialCardView
+               android:id="@+id/materialCardView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="@dimen/_10sdp"
+               android:layout_marginStart="6dp"
+               android:layout_marginEnd="7dp"
+               app:cardCornerRadius="@dimen/_6sdp"
+               app:cardElevation="@dimen/_5sdp"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <ImageView
+                           android:id="@+id/Thumbail"
+                           android:layout_width="match_parent"
+                           android:layout_height="@dimen/_170sdp"
+                           android:scaleType="fitXY"
+                           android:src="@drawable/tutorial_thumb" />
+
+                       <ImageView
+                           android:layout_width="@dimen/_70sdp"
+                           android:layout_height="@dimen/_70sdp"
+                           android:layout_gravity="center"
+                           android:adjustViewBounds="true"
+                           android:src="@drawable/play_icon" />
+
+                       <LinearLayout
+                           android:id="@+id/layoutViewCount"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="bottom"
+                           android:layout_margin="@dimen/_5sdp"
+                           android:background="@drawable/view_count_bg"
+                           android:padding="@dimen/_8sdp"
+                           android:visibility="gone">
+
+                           <TextView
+                               android:id="@+id/txtViewCount"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Views: 23939"
+                               android:textColor="@color/white"
+                               android:textSize="@dimen/_13sdp" />
+                       </LinearLayout>
+                   </FrameLayout>
+
+                   <TextView
+                       android:id="@+id/videoTitle"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:justificationMode="inter_word"
+                       android:maxLines="2"
+                       android:padding="@dimen/_8sdp"
+                       android:text="Hellow "
+                       android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                       android:textStyle="bold" />
+
+
+                   <ImageView
+                       android:id="@+id/imgBack"
+                       android:visibility="gone"
+                       android:src="@drawable/lef_arrow"
+                       android:layout_gravity="center"
+                       android:layout_margin="@dimen/_8sdp"
+                       android:layout_width="@dimen/_80sdp"
+                       android:layout_height="@dimen/_30sdp"/>
+
+               </LinearLayout>
+           </com.google.android.material.card.MaterialCardView>
+       </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgCancel"
+            android:visibility="gone"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:background="@drawable/cancel"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
